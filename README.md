@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+1) Download ZIP
+2) npm install
+3) json-server --watch db.json
+4) npm start
+5) json server start http://localhost:3000/pokemons/
+6) Project http://localhost:3001/
+   
+This project, named 'React Pokemon API ver2', serves as an advanced version of the previous project: https://github.com/mr-fox93/pokemon-api. It extensively employs a myriad of tools to enhance the functionalities and user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In essence, this project utilises a JSON server for mock API, React Query for data fetching, caching, and updates, and React Router for managing application routing. To cater for modern and sleek UI, Styled Components are leveraged throughout the project.
 
-## Available Scripts
+To facilitate easy HTTP requests, Axios is incorporated, while notifications are handled efficiently using Notistack. Finally, for easy form handling and validation, the project takes advantage of React Hook Form and Yup Resolver.
 
-In the project directory, you can run:
+This comprehensive usage of advanced tools and libraries positions this project as a substantial upgrade to its predecessor, offering more robust features and functionalities.
 
-### `npm start`
+![Zrzut ekranu 2023-06-26 o 13 28 18](https://github.com/mr-fox93/React-Pokemon-API-ver2/assets/112568901/89e20e3a-595a-4cfd-a5b9-46536be1c336)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Zrzut ekranu 2023-06-26 o 13 28 25](https://github.com/mr-fox93/React-Pokemon-API-ver2/assets/112568901/11d9520c-a366-4d47-aba6-7b563d8f5a8c)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Zrzut ekranu 2023-06-26 o 13 28 45](https://github.com/mr-fox93/React-Pokemon-API-ver2/assets/112568901/16f4e4d3-96e2-4d2c-81fd-58293352dec1)
 
-### `npm test`
+![Zrzut ekranu 2023-06-26 o 13 29 00](https://github.com/mr-fox93/React-Pokemon-API-ver2/assets/112568901/4248054e-41c4-427b-8c30-a8c8bde2c9c3)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Zrzut ekranu 2023-06-26 o 13 30 30](https://github.com/mr-fox93/React-Pokemon-API-ver2/assets/112568901/f35020ec-d534-40f0-82bb-4961e1138883)
 
-### `npm run build`
+![Zrzut ekranu 2023-06-26 o 13 30 51](https://github.com/mr-fox93/React-Pokemon-API-ver2/assets/112568901/e6f9f9a2-81f0-459c-b4a4-56634979679c)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Zrzut ekranu 2023-06-26 o 13 31 07](https://github.com/mr-fox93/React-Pokemon-API-ver2/assets/112568901/111c7370-6ab1-44e6-8878-2f4d38ea3236)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
